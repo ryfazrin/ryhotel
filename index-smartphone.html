@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>ryhotel - smartphone</title>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style-smartphone.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+<body>
+	<header style="background-image: url(images/cover-img-4.jpg);">
+		<div class="row">
+			<div class="container-fluid">
+				<div class="col-6">
+					<section id="branding">
+						<div id="site-title" style="float: left;">
+							<span><a href="">ryhotel</a></span>
+						</div>
+						<div id="toggle">
+							<span onclick="openNav()">
+								&#9776;
+							</span>
+						</div>
+					</section>
+				</div>
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href=""><i class="fa fa-home"></i> home</a>
+					<a href=""><i class="fa fa-hotel"></i> hotel</a>
+					<a href=""><i class="fa fa-edit"></i> blog</a>
+					<a href=""><i class="fa fa-certificate"></i> about</a>
+					<a href=""><i class="fa fa-phone"></i> contact</a>
+				</div>
+				<!-- <div class="col-6">
+					<nav id="menu" role="navigation">
+						<ul>
+							<li><a href="">home</a></li>
+							<li><a href="">hotel</a></li>
+							<li><a href="">blog</a></li>
+							<li><a href="">about</a></li>
+							<li><a href="">contact</a></li>
+						</ul>
+					</nav>
+				</div> -->
+			</div>
+		</div>
+		<section id="showcase">
+			<p>by ryan pazrin</p>
+			<span>Temukan Hotel Impianmu</span>
+		</section>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col-9">
+					<section id="boxes-content">
+						<div class="row">
+
+							<div class="col-6">
+								<div class="box">
+									<img src="images/hotel-1.jpg">
+									<div class="desc">
+										<p class="star">
+											<span>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</span>
+											500 reviews
+										</p>
+										<h3>
+											<a href="">its title</a>
+										</h3>
+											<span class="place">Kotabaru, KalSel</span>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="box">
+									<img src="images/hotel-2.jpg">
+									<div class="desc">
+										<p class="star">
+											<span>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</span>
+											500 reviews
+										</p>
+										<h3>
+											<a href="">its title</a>
+										</h3>
+											<span class="place">Kotabaru, KalSel</span>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="box">
+									<img src="images/hotel-3.jpg">
+									<div class="desc">
+										<p class="star">
+											<span>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</span>
+											500 reviews
+										</p>
+										<h3>
+											<a href="">its title</a>
+										</h3>
+											<span class="place">Kotabaru, KalSel</span>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="box">
+									<img src="images/hotel-1.jpg">
+									<div class="desc">
+										<p class="star">
+											<span>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</span>
+											500 reviews
+										</p>
+										<h3>
+											<a href="">its title</a>
+										</h3>
+											<span class="place">Kotabaru, KalSel</span>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-12">
+								<ul class="pagination">
+									<li><a href="#">&laquo;</a></li>
+									<li class="active"><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">&raquo;</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="col-3">
+					<section id="sidebar">
+						<div id="booking">
+							<span>Find Your Hotel</span>
+							<form class="booking">
+								<div class="form-group">
+									<label for="date">Check-in:</label>
+									<div class="form-field">
+										<i class="fa fa-calendar"></i>
+										<input type="date" id="date" class="form-control date" placeholder="Check-in date">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="date">Check-out:</label>
+									<div class="form-field">
+										<i class="fa fa-calendar"></i>
+										<input type="date" id="date" class="form-control date" placeholder="Check-in date">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="guests">Guest</label>
+									<div class="form-field">
+										<i class="fa fa-arrow-down"></i>
+										<select name="people" id="people" class="form-control">
+											<option value="#">1</option>
+											<option value="#">2</option>
+											<option value="#">3</option>
+											<option value="#">4</option>
+											<option value="#">5+</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-booking">find hotel</button>
+								</div>
+							</form>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<section id="newslatter" style="background: url(images/img_bg_4.jpg);" data-stellar-background-ratio="0.5">
+					<div class="overlay"></div>
+					<h2>Sign Up for a Newsletter</h2>
+					<p>Sign up for our mailing list to get latest updates and offers.</p>
+					<form class="form-inline qbstp-header-subscribe">
+						<div class="form-group">
+							<input type="text" class="form-control" id="email" placeholder="Enter your email">
+							<button type="submit" class="btn btn-sub">Subscribe</button>
+						</div>
+					</form>
+				</section>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container">
+			<section id="widget">
+				<div class="row">
+					<div class="col-3">
+						<h4>Tour Agency</h4>
+						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+						<p>
+							<ul class="social-icons">
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="col-3">
+						<h4>Top Deals</h4>
+						<p>
+							<ul class="footer-links">
+								<li><a href="#">Edina Hotel</a></li>
+								<li><a href="#">Quality Suites</a></li>
+								<li><a href="#">The Hotel Zephyr</a></li>
+								<li><a href="#">Da Vinci Villa</a></li>
+								<li><a href="#">Hotel Epikk</a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="col-3">
+						<h4>Blog Post</h4>
+						<ul class="footer-links">
+							<li><a href="#">The Ultimate Packing List For Female Travelers</a></li>
+							<li><a href="#">How These 5 People Found The Path to Their Dream Trip</a></li>
+							<li><a href="#">A Definitive Guide to the Best Dining and Drinking Venues in the City</a></li>
+						</ul>
+					</div>
+					<div class="col-3">
+						<h4>Contact Information</h4>
+						<ul class="footer-links">
+							<li>291 South 21th Street, <br> Suite 721 New York NY 10016</li>
+							<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
+							<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
+							<li><a href="#">yoursite.com</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-12">
+					<section id="copyright">
+						<span>Copyright &copy;2018 All rights reserved | template is made with <i class="fa fa-heart-o"></i> by <a href="">Muhammad Pazrin Andreanor</a></span>
+					</section>
+				</div>
+			</section>
+
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
